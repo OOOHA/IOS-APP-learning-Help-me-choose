@@ -11,7 +11,7 @@ import SwiftUI
 struct Help_me_chooseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Enter_Screen()
         }
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52A11C6926A0804A00F2FF65 /* Help_me_chooseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A11C6826A0804A00F2FF65 /* Help_me_chooseApp.swift */; };
-		52A11C6B26A0804A00F2FF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A11C6A26A0804A00F2FF65 /* ContentView.swift */; };
+		52A11C6B26A0804A00F2FF65 /* Enter_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A11C6A26A0804A00F2FF65 /* Enter_Screen.swift */; };
 		52A11C6D26A0804D00F2FF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A11C6C26A0804D00F2FF65 /* Assets.xcassets */; };
 		52A11C7026A0804D00F2FF65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A11C6F26A0804D00F2FF65 /* Preview Assets.xcassets */; };
 		52A11C7B26A0804D00F2FF65 /* Help_me_chooseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A11C7A26A0804D00F2FF65 /* Help_me_chooseTests.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		52A11C6526A0804A00F2FF65 /* Help me choose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help me choose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A11C6826A0804A00F2FF65 /* Help_me_chooseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_me_chooseApp.swift; sourceTree = "<group>"; };
-		52A11C6A26A0804A00F2FF65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52A11C6A26A0804A00F2FF65 /* Enter_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enter_Screen.swift; sourceTree = "<group>"; };
 		52A11C6C26A0804D00F2FF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A11C6F26A0804D00F2FF65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52A11C7126A0804D00F2FF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				52A11C6826A0804A00F2FF65 /* Help_me_chooseApp.swift */,
-				52A11C6A26A0804A00F2FF65 /* ContentView.swift */,
+				52A11C6A26A0804A00F2FF65 /* Enter_Screen.swift */,
 				52A11C6C26A0804D00F2FF65 /* Assets.xcassets */,
 				52A11C7126A0804D00F2FF65 /* Info.plist */,
 				52A11C6E26A0804D00F2FF65 /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A11C6B26A0804A00F2FF65 /* ContentView.swift in Sources */,
+				52A11C6B26A0804A00F2FF65 /* Enter_Screen.swift in Sources */,
 				52A11C6926A0804A00F2FF65 /* Help_me_chooseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Help me choose/Preview Content\"";
+				DEVELOPMENT_TEAM = MVLTKC648K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Help me choose/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Help me choose/Preview Content\"";
+				DEVELOPMENT_TEAM = MVLTKC648K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Help me choose/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
